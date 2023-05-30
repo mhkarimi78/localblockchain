@@ -40,4 +40,14 @@ module.exports = {
       },
     },
   },
+  defaultNetwork: "running",
+  networks: {
+    hardhat: {
+      chainId: 1337,
+    },
+  },
+  running: {
+    url: "http://localhost:8545",
+    chainId: 1337,
+  },
 };
